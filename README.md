@@ -1,15 +1,18 @@
-# Predicting-Airlines-tickets-price
-1. Conclusion
-1.1 Summary of Findings
-●Recap of Key Findings: The evaluation of various machine learning models, including Random Forest, XGBoost, and Bagging Regressor, as well as deep learning models including Artificial Neural Networks (ANN), revealed distinct performance metrics. Random Forest was the top performer, with the lowest MAE and RMSE, as well as the highest R² score (97.923%). XGBoost came in close second with comparable results, while ExtraTreesRegressor and Bagging Regressor also demonstrated high predictive accuracy, albeit slightly lower. Deep learning models, such as ANN and MLP, performed well but did not outperform ensemble methods, possibly due to data constraints.
-●Achievements of Research Objectives and Hypotheses: The research successfully identified Random Forest and XGBoost as the most effective models for predicting airline ticket prices, supporting the hypothesis that advanced machine learning techniques can surpass traditional pricing methods. Additionally, the analysis of feature significance highlighted that variable like "days left to departure," "class" and "duration" were key predictors, affirming the reliability and relevance of these models.
-1.2 Contributions to Knowledge
-●Theoretical Contributions:  The study enhances theoretical knowledge of machine learning applications in revenue management by showing that ensemble methods such as Random Forest and XGBoost can effectively model complex and non-linear relationships in pricing data. The findings contribute to the predictive analytics literature by underscoring the strengths and limitations of various machine learning approaches, offering valuable insights into their practical applications and performance.
-●Practical Contributions: For the airline industry, the research provides actionable insights into dynamic pricing strategies. The high accuracy of the models indicates that airlines can optimize revenue by making more precise ticket price predictions, which can boost competitiveness and improve customer satisfaction.
-1.3 Limitations
-●Discussion of Study Limitations: The study encountered several limitations, including a small dataset size that may have restricted the performance of deep learning models. Furthermore, the models had difficulties handling outliers and extreme values, such as last-minute bookings and long-haul flights, which affected the root mean squared error (RMSE).
-●Impact of Limitations on Findings: These limitations show that, while the machine learning models achieved high overall accuracy, their performance may be influenced by specific edge cases and data constraints. This could have an impact on the findings' generalizability and robustness, emphasizing the need for additional refinement and, potentially, larger, more diverse datasets to enhance model performance.
-1.4 Future Work
-●Recommendations for Future Research: Future studies could broaden the scope to encompass multi-route pricing scenarios and enhance real-time data processing capabilities. Incorporating advanced techniques like reinforcement learning could further elevate model performance and adaptability, offering more nuanced and dynamic pricing solutions.
-●Potential for Advanced Techniques: Exploring more advanced deep learning methods, such as reinforcement learning, could help overcome current limitations and enhance predictive accuracy. These techniques may offer more nuanced approaches to modeling and adapting to complex pricing scenarios.
-●Exploring Other Sectors: The model's application could be broadened to other industries, such as hotel pricing or ride-sharing services, to evaluate its versatility and effectiveness across different contexts. This would help determine how well the model performs in various settings and adapt its insights to different pricing challenges.
+This study evaluates the performance of various machine learning models for predicting airline ticket prices, focusing on Random Forest, XGBoost, Bagging Regressor, and deep learning models like Artificial Neural Networks (ANN). The models were assessed using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R², with Random Forest emerging as the top performer, achieving the lowest MAE and RMSE, and the highest R² score (97.923%).
+
+Key findings:
+
+Top Performers: Random Forest and XGBoost excelled in capturing complex, non-linear relationships in pricing data, outperforming traditional pricing methods like Yield Management and Expected Marginal Seat Revenue (EMSR).
+Key Predictors: Variables like "days left to departure," "class," and "duration" were identified as key drivers in determining ticket prices.
+Dynamic Pricing: The machine learning models provided a more dynamic and accurate pricing approach, offering real-time adaptability and improving revenue management strategies.
+Challenges:
+
+Data constraints and issues with handling outliers, particularly in edge cases like last-minute bookings, impacted model performance.
+Future Recommendations:
+
+Advanced Techniques: Further research could explore reinforcement learning to improve model adaptability and accuracy.
+Cross-Industry Applications: The model could be applied to other industries, such as hotel and ride-sharing services, to assess its versatility and impact on dynamic pricing.
+Impact:
+This project provides valuable insights into the effectiveness of machine learning in dynamic pricing, offering actionable recommendations for the airline industry to optimize revenue and improve pricing accuracy. The findings contribute to both the theoretical and practical advancement of machine learning applications in revenue management strategies.
+
+Tech Stack: Python, Scikit-learn, Pandas, XGBoost, Random Forest, Deep Learning, Artificial Neural Networks (ANN), Data Science
